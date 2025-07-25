@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kunal Vaghani | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pVJkY9z3/RH9pRJpcu0Phwk9MOeqzJ3MSUieqqLJJzH4kw6UPV4R/cLZLrxJbB0lc6SMRVbSqif7V+xn2b3+Cg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="navbar">
+      <div class="container nav-wrapper">
+        <a href="#home" class="logo">KV</a>
+        <nav id="nav-menu" class="nav-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <div class="code-box">
+          <ol class="code-list">
+            <li>&lt;html&gt;</li>
+            <li>&lt;body&gt;</li>
+            <li>&lt;h1&gt; Hello, I'm Kunal &lt;/h1&gt;</li>
+            <li>&lt;p&gt; Game Developer &amp; Engine Programmer &lt;/p&gt;</li>
+            <li>&lt;/body&gt;</li>
+            <li>&lt;/html&gt;</li>
+          </ol>
+        </div>
+        <div class="intro-box">
+          <h1>Hi, I'm <span class="highlight">Kunal Vaghani</span>.</h1>
+          <p>
+            I'm a game developer with a passion for building immersive
+            experiences. Skilled in C++, C#, Unity and Unreal Engine, I love
+            diving into engine architecture, graphics rendering and gameplay
+            programming. Let's create something extraordinary together.
+          </p>
+          <a href="#projects" class="btn-primary">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <span class="skill-badge">C++</span>
+          <span class="skill-badge">C#</span>
+          <span class="skill-badge">Python</span>
+          <span class="skill-badge">Unity</span>
+          <span class="skill-badge">Unreal Engine</span>
+          <span class="skill-badge">OpenGL</span>
+          <span class="skill-badge">Vulkan</span>
+          <span class="skill-badge">DirectX</span>
+          <span class="skill-badge">SDL</span>
+          <span class="skill-badge">Blender</span>
+          <span class="skill-badge">3ds Max</span>
+          <span class="skill-badge">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/the_village_crop50.jpg" alt="The Village game screenshot" />
+            </div>
+            <div class="card-content">
+              <h3>The Village</h3>
+              <p class="role">Programmer &amp; Level Designer</p>
+              <p class="description">
+                A 2D game where a vampire ventures out at night to reach his
+                castle. Help the vampire return home before sunrise while
+                defending against villagers, wizards and fire‑throwing foes.
+              </p>
+              <a href="https://aymed.itch.io/thevillage" class="btn-secondary" target="_blank" rel="noopener">View Game</a>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/kitchen_hell_crop50.jpg" alt="Kitchen Hell game screenshot" />
+            </div>
+            <div class="card-content">
+              <h3>Kitchen Hell</h3>
+              <p class="role">Level Designer &amp; UI Programmer</p>
+              <p class="description">
+                A 2D game featuring an anti‑gravity glove used to pick up beans
+                and levitate them. Collect mischievous hens in a chaotic
+                kitchen and deposit them in the next room.
+              </p>
+              <a href="https://nktrien.itch.io/kitchen-hell" class="btn-secondary" target="_blank" rel="noopener">View Game</a>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/opengl_engine.png" alt="OpenGL game engine" />
+            </div>
+            <div class="card-content">
+              <h3>OpenGL Game Engine</h3>
+              <p class="role">Engine Programmer</p>
+              <p class="description">
+                A custom game engine built with C++ and OpenGL. It features
+                dynamic lighting, textured rendering and optimized resource
+                management, with XML‑driven configuration for flexible asset
+                loading.
+              </p>
+              <a href="https://github.com/kunalvaghani/Kunals_Repo" class="btn-secondary" target="_blank" rel="noopener">Read More</a>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/vulkan_engine.png" alt="Vulkan game engine" />
+            </div>
+              <div class="card-content">
+                <h3>Vulkan Game Engine</h3>
+                <p class="role">Engine Programmer</p>
+                <p class="description">
+                  A cross‑platform engine developed using Vulkan. Managed
+                  swapchains, buffers and textures for efficient rendering,
+                  implemented 3D graphics with depth buffering and built a
+                  flexible shader pipeline for stunning visual effects.
+                </p>
+                <a href="https://github.com/kunalvaghani/Kunals_Repo" class="btn-secondary" target="_blank" rel="noopener">Read More</a>
+              </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/game_ai.png" alt="Game AI pathfinding project" />
+            </div>
+            <div class="card-content">
+              <h3>Game AI From Scratch</h3>
+              <p class="role">AI Programmer</p>
+              <p class="description">
+                Developed a path‑finding AI from the ground up using
+                Dijkstra and other custom algorithms. An emoji‑driven agent
+                traverses a maze to reach the player and dynamically
+                adjusts its behaviour: angry moods speed up its random
+                movement, happy moods slow it down, and excited moods make
+                it actively chase the player.
+              </p>
+              <a href="https://github.com/kunalvaghani/Kunals_Repo" class="btn-secondary" target="_blank" rel="noopener">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D Models Section -->
+    <section id="models" class="models-section">
+      <div class="container">
+        <h2>3D&nbsp;Models</h2>
+        <div class="projects-grid">
+          <!-- Model 1 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/village_model_art.png" alt="Village day & night 3D model" />
+            </div>
+            <div class="card-content">
+              <h3>Village Day &amp; Night</h3>
+              <p class="description">
+                Low‑poly village scene depicting houses, cars and trees. A
+                colourful study in lighting for day and night environments.
+              </p>
+            </div>
+          </div>
+          <!-- Model 2 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/home_robot_art.png" alt="Home robot 3D model" />
+            </div>
+            <div class="card-content">
+              <h3>Home Robot</h3>
+              <p class="description">
+                A friendly home robot rendered in crisp blue and white. This 3D
+                character showcases smooth surfaces and simple, appealing shapes.
+              </p>
+            </div>
+          </div>
+          <!-- Model 3 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/minecraft_scene_art.png" alt="Voxel scene 3D model" />
+            </div>
+            <div class="card-content">
+              <h3>Voxel Forest Scene</h3>
+              <p class="description">
+                A voxel‑style landscape inspired by sandbox games, featuring a
+                cottage, trees and a serene pond in an isometric world.
+              </p>
+            </div>
+          </div>
+          <!-- Model 4 -->
+          <div class="project-card">
+            <div class="card-image">
+              <img src="assets/indian_gada_art.png" alt="Indian Gada 3D model" />
+            </div>
+            <div class="card-content">
+              <h3>Indian Gada</h3>
+              <p class="description">
+                A stylised 3D rendition of a traditional Indian mace (gada),
+                rendered in gold with intricate geometric facets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container about-content">
+        <h2>About Me</h2>
+        <p>
+          I am a proud alumnus of Humber College's game programming program.
+          With a strong foundation in C++ and graphics programming, I bring
+          a deep understanding of game development to the table. I excel at
+          collaborating with artists and designers to create rich,
+          interactive experiences and enjoy tackling both technical and
+          creative challenges.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-content">
+        <h2>Contact</h2>
+        <p>If you'd like to discuss a project or just say hello, feel free to reach out.</p>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-envelope"></i><a href="mailto:kunalvaghani35@gmail.com">kunalvaghani35@gmail.com</a></li>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+14379873240">+1 437 987 3240</a></li>
+          <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/kunal-vaghani-b19217235/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> Kunal Vaghani. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
