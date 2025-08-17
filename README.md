@@ -47,6 +47,12 @@ AI system with pathfinding and emotional states:
 - Behavior changes based on mood (angry = fast, happy = random wander, excited = chase player).  
 [📂 View Code](https://github.com/kunalvaghani/Kunals_Repo)
 
+### 6. Commando Squad Runner
+An endless three-lane runner made with **Phaser 3**. Collect coins, pick gates, grab power-ups, defeat bosses, and buy cosmetics. Supports restart without crashes and stores your progress locally.
+
+▶️ [Play Live](https://kunalvaghani.github.io/OnlineFakeAdGame/)
+📂 [View Code](https://github.com/kunalvaghani/OnlineFakeAdGame)
+
 ---
 
 ## 🧱 3D Models
