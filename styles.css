@@ -246,6 +246,7 @@ body {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 12px;
+  padding: 1.5rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -263,6 +264,7 @@ body {
   height: 180px;
   object-fit: cover;
   display: block;
+  border-radius: 8px;
 }
 
 .project-card .card-content {
